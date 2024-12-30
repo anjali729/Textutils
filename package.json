@@ -1,5 +1,4 @@
 {
-  "homepage": "https://anjali729.github.io/Textutils",
   "name": "textutils",
   "version": "0.1.0",
   "private": true,
@@ -15,10 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run serve",
     "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build"
+    "build": "react-scripts --openssl-legacy-provider build",
+    "serve": "serve build"
   },
   "eslintConfig": {
     "extends": [
