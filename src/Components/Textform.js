@@ -40,7 +40,7 @@ export default function Textform(props) {
         if(mystyle.backgroundColor==='white'){
             setStyle({
                 color:'white',
-                backgroundColor:'black'
+                backgroundColor:'grey'
             })
             setbtntext("Enable light mode")
             props.showAlert("Dark mode has been Enabled","success")
